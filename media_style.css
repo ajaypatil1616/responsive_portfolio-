@@ -1,0 +1,57 @@
+@media (max-width: 768px) {
+  .navbar ul {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .navbar li {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 768px) {
+  .about {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .aboutContaint a {
+    align-items: center;
+  }
+}
+@media (max-width: 768px) {
+  .skills {
+    flex-direction: column;
+    align-items: center;
+    background-color: maroon;
+    width: 100%;
+  }
+  .skillsContaint {
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+  }
+  @media (max-width: 768px) {
+    .projectContaint {
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+    }
+    .experienceContaint {
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .Education {
+    flex-direction: column;
+    align-items: center;
+  }
+  .table {
+    
+  }
+}

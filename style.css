@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* Header*/
+.header {
+  background-color: #fbeaeb;
+  color: #2f3c7e;
+  width: 100%;
+}
+
+/*Navbar*/
+.navbar{
+  padding: 10px 0;
+  background-color:#0275dd;
+  
+  
+}
+.navbar ul li a{
+  text-decoration: none;
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 10px 15px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.navbar a:hover{
+  background-color: #ff534f;
+ border-radius: 5px;
+}
+.navLinks{
+  display: flex;
+  justify-content: space-around; 
+  list-style: none; 
+}
+
+
+/*About*/
+.about {
+  background-color: #ddd;
+  display: flex;
+  justify-content: center;
+  color: black;
+  width: 100%;
+}
+.aboutImg img {
+  height: auto;
+  width: 300px;
+  padding: 40px 40px 40px 50px;
+  /*border-radius: 20%; */
+}
+.aboutContaint {
+  padding: 30px 10px 0 30px;
+}
+.aboutme {
+  font-size: 80px;
+}
+.engineer {
+  color: #4070f4;
+}
+.swEngineer {
+  padding: 10px 0px;
+  cursor: pointer;
+}
+.abtInfo {
+  padding: 10px 20px 20px 0;
+  font-size: 15px;
+
+  letter-spacing: 1px;
+}
+.hireMe {
+  font-size: 18px;
+  background-color: #4070f4;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 25px;
+}
+.hireMe:hover {
+  background-color: #990011;
+  color: #fcf6f5;
+}
+
+/*Skills Section*/
+.skills{
+  width: 100%;
+}
+.skillsHeading {
+  text-align: center;
+  font-size: 30px;
+  background-color: #8aaae5;
+  color: black;
+}
+.skillsContaint {
+  display: flex;
+  justify-content: space-around; /*ImP*/
+  padding: 20px 50px 20px 50px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 25px;
+  background-color: #8aaae5;
+  color: black;
+}
+
+/*Projects */
+.Projects{
+  width: 100%;
+}
+.projectsHeading {
+  text-align: center;
+  font-size: 30px;
+  background-color: #8aaae5;
+  color: black;
+}
+.projectContaint {
+  display: flex;
+  justify-content: space-around; /*ImP*/
+  padding: 20px 50px 30px 50px;
+  background-color: #8aaae5;
+}
+.projectCard {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 25px;
+  background-color: #fff;
+}
+
+/*Education Details*/
+.Education{
+  width: 100%;
+}
+.educationHeading {
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  background-color: #009688;
+}
+.educationContaint {
+  text-align: center;
+  padding: 0px 0 0 0;
+}
+table {
+  width: 100%;
+  background-color: #d6eeee;
+  border-collapse: collapse;
+}
+td{
+  
+}
+th,
+td,tr {
+  padding: 15px;
+  border: 1px solid black;
+}
+/*Experience*/
+.experince{
+  width: 100%;
+}
+.experienceHeading {
+  text-align: center;
+  font-size: 30px;
+  background-color: #fff660;
+}
+.experienceContaint {
+  padding-top: 10px;
+  display: flex;
+  background-color: DodgerBlue;
+}
+.experienceContaint > div {
+  background-color: #f1f1f1;
+  margin: 15px;
+  padding: 20px;
+}
+/*Footer*/
+.icons {
+  font-size: 25px;
+  white-space: normal;
+}
+.icons a i {
+  align-items: center;
+}
+.footer {
+  background-color: #fbeaeb;
+  color: #2f3c7e;
+  width: 100%;
+}
+
+/* Contact.html
+*/
+
